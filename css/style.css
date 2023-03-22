@@ -1,0 +1,123 @@
+
+body {
+    background-image: url('../img/background-image.jpg');
+    text-align: center;
+}
+
+#masthead img {
+    max-width: 50%;
+    
+}
+/* h1 {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(72, 27, 1);
+    width: 60%;
+}
+
+h2 {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 45%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: rgb(72, 27, 1);
+    width: 60%;
+}
+
+h4 {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;        
+    text-align: center;
+    top: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(72, 27, 1);
+    width: 60%;
+} */
+footer {
+    background-color: rgb(72, 27, 1);
+    padding: 2rem;
+}
+
+
+footer img  {
+    max-width: 2rem;
+    height: auto;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(72, 27, 1);
+    margin: 0 auto;
+    left: 0;
+    right: 0; 
+    font-size: 5rem;
+
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(72, 27, 1);
+    margin: 0 auto;
+    left: 0;
+    right: 0; 
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(72, 27, 1);
+}
+
+#grocery-input input[type=text] {
+    width: 55%;
+    height: 50px;
+    background-color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: rgb(126, 126, 126);
+}
+
+#button {
+    color: #fff;
+    width: 60%;
+    height: 50px;
+    background-color: rgb(72, 27, 1);
+    border: 1px solid rgb(72, 27, 1);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Tablets and Desktop Screens */
+@media only screen and (min-width: 35rem) {
+
+    h1 {
+      font-size: 6rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }  
+    
+  
+    h2 {
+      font-size: 3rem;
+    }
+    #masthead img {
+        max-width: 20%;
+        
+    }
+}
